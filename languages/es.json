@@ -1,0 +1,39 @@
+{
+    "mode": {
+        "dark": "Modo oscura",
+        "light": "Modo claro"
+    },
+    "profile":{
+        "role": "Desarrollador Front End",
+        "description1": "Desarrollador Front End en REACT. Después de dos años de estudio en gran parte de forma autodidacta y con la ayuda inestimable de diferentes profesores y la comunidad, decidí fortalecer mis conocimientos con el Bootcamp de React impartido por IT Academy.",
+        "description2": "Apasionado de los retos y resuelto a siempre entender el porqué de las cosas."
+       
+    },
+    "skills":{
+        "subtitle": "Años d'experiencia"
+    },
+    "projects":{
+        "project1-title": "Dibujos en HTML y CSS",
+        "project2-title": "Bootcamp proyecto final",
+        "project2-description": "Web desarrollada con React y Firebase para ayudar a la memorización de vocabulario en el estudio de idiomas extranjeros, mediante la creación de tus propias listas de palabras y juegos como el Snake (desarrollado desde cero en React)",
+        "project3-title": "Bootcamp proyecto 8",
+        "project3-description": "Réplica de una página web consumiendo una API de Star Wars",
+        "project4-title": "Bootcamp proyecto 7",
+        "project4-description": "App de presupuestos con react-router-dom y styled-components",
+        "project5-title": "Bootcamp proyecto 6",
+        "project5-description": "Consumir una API en React",
+        "project6-title": "Bootcamp proyecto 5",
+        "project6-description": "Consumir una API y usar Typescript",
+        "project7-title": "Bootcamp proyecto 4",
+        "project7-description": "Algoritmos en JS",
+        "project8-title": "Bootcamp proyecto 3",
+        "project8-description": "Réplica de un e-commerce",
+        "project9-title": "Bootcamp proyecto 2",
+        "project9-description": "Réplica de una página web usando Bootstrap",
+        "project10-title": "Bootcamp proyecto 1",
+        "project10-description": "Réplica de una página web"
+    },
+    "buttons":{
+        "code": "Código"
+    }
+}

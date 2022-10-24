@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Front End Developer with REACT. After two years of studying mainly as an autodidact and with the invaluable help of different teachers and the community, I decided to strengthen my knowledge through the React Bootcamp at IT Academy. Passionate about challenges and understanding the reasone for everything.">
+    <script
+      src="https://kit.fontawesome.com/0fa5fbeb78.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gerard Roura</title>
+  </head>
+  <body >
+    <header class="header">
+      <div class="switches">
+        <div class="toggle-theme" id="toggle-theme">
+          <img
+            id="toggle-icon"
+            src="assets/icons/moon.svg"
+            alt="icon theme"
+            class="toggle-theme__icon"
+          />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div class="flags" id="flags">
+        <div class="flags__item" data-language="en">
+           <img src="assets/images/gb.png" alt="gb flag" class="flags__image">
+        </div>
+         <div class="flags__item" data-language="es">
+            <img src="assets/images/spain.png" alt="spain flag" class="flags__image">
+        </div>
+      </div>
+      
+      <div id="toggle-colors" class="colors">
+        <div
+          data-color="hsl(214, 84%, 56%)"
+          class="colors__item colors__item--blue"
+        ></div>
+        <div
+          data-color="hsl(154, 84%, 56%)"
+          class="colors__item colors__item--green"
+        ></div>
+        <div
+          data-color="hsl(276, 84%, 56%)"
+          class="colors__item colors__item--purple"
+        ></div>
+        <div
+          data-color="hsl(46, 84%, 56%)"
+          class="colors__item colors__item--orange"
+        ></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile.png" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Gerard Roura</h2>
+            <p class="card__subtitle" data-section="profile" data-value="role">Front End Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:g.roura.v@protonmail.com"
+                >g.roura.v@protonmail.com</a
+              >
+            </div>
+            <!-- <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="mailto:"></a>
+            </div> -->
+            <p class="card__text" data-section="profile" data-value="description1">
+             Front End Developer with REACT. After two years of studying mainly as an autodidact and with the invaluable help of different teachers and the community, I decided to strengthen my knowledge through the React Bootcamp at IT Academy.
+            </p>
+            <p class="card__text" data-section="profile" data-value="description2">
+             Passionate about challenges and understanding the reason for everything.
+            </p>
+          </div>
+        </article>
+        
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <!-- <h2 class="card__title">Front end</h2> -->
+          <div class="skills">
+            <small class="skills__subtitle" data-section="skills" data-value="subtitle">Years experience</small>
+            <div class="skills__header">
+              <div class="skills__start-level">0</div>
+              <div class="skills__start-level">2</div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+             <div class="skills__item">
+              <p class="skills__tech">BEM</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">SASS</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Styled Components</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+        </article>
+       
+        <article class="card">
+          <div class="skills">
+            <small class="skills__subtitle" data-section="skills" data-value="subtitle">Years experience</small>
+            <div class="skills__header">
+              <div class="skills__start-level">0</div>
+              <div class="skills__start-level">2</div>
+            </div>
+             <div class="skills__item">
+              <p class="skills__tech">C</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Javascript</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Typescript</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </article>
+        <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project1.png" alt="project 1" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project1-title">Drawings in HTML and CSS</h2>
+                <div class="buttons">
+                    <a href="https://gerouvi.github.io/draws_masonry/" target="_blank" class="button button--primary">Demo</a>
+                    <a href="https://github.com/gerouvi/draws" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+        <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project11.png" alt="project 1" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#REACT</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project11-title">Snake game</h2>
+                <p class="card__text" data-section="projects" data-value="project11-description">Snake game only with React</p>
+                <div class="buttons">
+                    <a href="https://gerouvi.github.io/snake/" target="_blank" class="button button--primary">Demo</a>
+                    <a href="https://github.com/gerouvi/snake" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+        <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project2.png" alt="project 2" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#Styled-components</span>
+                    <span class="project__tag">#REACT</span>
+                    <span class="project__tag">#Firebase</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project2-title">Bootcamp final project</h2>
+                <p class="card__text" data-section="projects" data-value="project2-description">Web developed with React and Firebase to improve vocabulary when learning a foreign language, creating your own lists of words and playing at games like Snake (coded from scratch in React)</p>
+                <div class="buttons">
+                    <a href="https://memowords-21f97.web.app/" target="_blank" class="button button--primary">Demo</a>
+                    <a href="https://github.com/gerouvi/sprint-9-final-project" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+        <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project3.png" alt="project 3" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#REACT</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project3-title">Bootcamp project 8</h2>
+                <p class="card__text" data-section="projects" data-value="project3-description">Website layout replica and consuming an Star Wars API</p>
+                <div class="buttons">
+                    <a href="https://github.com/gerouvi/sprint-8.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+         <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project4.png" alt="project 4" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#Styled-components</span>
+                    <span class="project__tag">#REACT</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project4-title">Bootcamp project 7</h2>
+                <p class="card__text" data-section="projects" data-value="project4-description">Budgets App with react-router-dom and styled-components</p>
+                <div class="buttons">
+                    <a href="https://github.com/gerouvi/sprint-7.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+        <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project5.png" alt="project 5" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#REACT</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project5-title">Bootcamp project 6</h2>
+                <p class="card__text" data-section="projects" data-value="project5-description">Consuming an API with React</p>
+                <div class="buttons">
+                    <a href="https://github.com/gerouvi/sprint-6.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+         <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project6.png" alt="project 6" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#TYPESCRIPT</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project6-title">Bootcamp project 5</h2>
+                <p class="card__text" data-section="projects" data-value="project6-description">Consuming an API and use of Typescript</p>
+                <div class="buttons">
+                    <a href="https://gerouvi.github.io/sprint-5/" target="_blank" class="button button--primary">Demo</a>
+                    <a href="https://github.com/gerouvi/sprint-5.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+         <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project7.png" alt="project 7" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#JS</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project7-title">Bootcamp project 4</h2>
+                <p class="card__text" data-section="projects" data-value="project7-description">Algorithms in JS</p>
+                <div class="buttons">
+                    <a href="https://github.com/gerouvi/sprint-4.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+         <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project8.png" alt="project 8" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                    <span class="project__tag">#JS</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project8-title">Bootcamp project 3</h2>
+                <p class="card__text" data-section="projects" data-value="project8-description">E-commerce replica</p>
+                <div class="buttons">
+                    <a href="https://gerouvi.github.io/sprint-3/" target="_blank" class="button button--primary">Demo</a>
+                    <a href="https://github.com/gerouvi/sprint-3.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+         <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project9.png" alt="project 9" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#BOOTSTRAP</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project9-title">Bootcamp project 2</h2>
+                <p class="card__text" data-section="projects" data-value="project9-description">Website layout replica with Bootstrap</p>
+                <div class="buttons">
+                    <a href="https://gerouvi.github.io/sprint-2/" target="_blank" class="button button--primary">Demo</a>
+                    <a href="https://github.com/gerouvi/sprint-2.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+         <aricle class="card card--project">
+            <div class="card__image-project-container">
+                <img src="assets/images/project10.png" alt="project 10" class="card__image">
+            </div>
+            <div class="project">
+                <div class="project__tags">
+                    <span class="project__tag">#HTML</span>
+                    <span class="project__tag">#CSS</span>
+                </div>
+                <h2 class="card__title" data-section="projects" data-value="project10-title">Bootcamp project 1</h2>
+                <p class="card__text" data-section="projects" data-value="project10-description">Website layout replica</p>
+                <div class="buttons">
+                    <a href="https://gerouvi.github.io/sprint-1/" target="_blank" class="button button--primary">Demo</a>
+                    <a href="https://github.com/gerouvi/sprint-1.git" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+                </div>
+            </div>
+        </aricle>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,35 @@
+{
+    
+    "profile":{
+        "role": "Front End Developer", 
+        "description1": "Front End Developer with REACT. After two years of studying mainly as an autodidact and with the invaluable help of different teachers and the community, I decided to strengthen my knowledge through the React Bootcamp at IT Academy.",
+        "description2": "Passionate about challenges and understanding the reason for everything."
+    },
+    "skills":{
+        "subtitle": "Experience years"
+    },
+    "projects":{
+        "project1-title": "Drawings in HTML and CSS",
+        "project2-title": "Bootcamp final project",
+        "project2-description": "Web developed with React and Firebase to improve vocabulary when learning a foreign language, creating your own lists of words and playing at games like Snake (coded from scratch in React)",
+        "project3-title": "Bootcamp project 8",
+        "project3-description": "Website layout replica and consuming an Star Wars API",
+        "project4-title": "Bootcamp project 7",
+        "project4-description": "Budgets App with react-router-dom and styled-components",
+        "project5-title": "Bootcamp project 6",
+        "project5-description": "Consuming an API with React",
+        "project6-title": "Bootcamp project 5",
+        "project6-description": "Consuming an API and use of Typescript",
+        "project7-title": "Bootcamp project 4",
+        "project7-description": "Algorithms in JS",
+        "project8-title": "Bootcamp project 3",
+        "project8-description": "E-commerce replica",
+        "project9-title": "Bootcamp project 2",
+        "project9-description": "Website layout replica with Bootstrap",
+        "project10-title": "Bootcamp project 1",
+        "project10-description": "Website layout replica"
+    },
+     "buttons":{
+        "code": "Code"
+    }
+}
